@@ -1,0 +1,28 @@
+
+* {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+table, th, td {
+  border: 1px none;
+  text-decoration: none;
+  table-layout: fixed;
+
+.navigation {
+  color: black;
+}
+
+.navigation:active {
+  text-decoration: none;
+}
+
+.navigation:visited {
+  text-decoration: none;
+  color: blue;
+}
+
+.navigation:hover {
+  text-decoration: underline;
+}
